@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper, Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="scene">
+    <header class="title">Rock, Paper, scissors</header>
+    <div id="btn">
+        <a id="reload" href="index.html">Reload</a>
+    </div>
+    <section id="stage">
+        <section id="game">
+            <article class="player">
+                User
+            </article>
+            <article id="userpoints">0</article>
+            <article id="options">
+                <button class="options" id="rock"><img src="rock.jpg" alt="Piedra" class="choices"></button>
+                <button class="options" id="paper"><img src="paper.jpg" alt="Papel" class="choices"></button>
+                <button class="options" id="scissors"><img src="scissors.jpg" alt="Tijeras" class="choices"></button>
+            </article>
+            <article class="choicetxt">Here is your choice!</article>
+            <article>
+                <img src="random.png" alt="opción" id="userchoice" class="choices">
+            </article>
+        </section>
+
+        <h1 id="result">VS</h1>
+        <section id="game">
+            <article class="player">
+                CPU
+            </article>
+            <article id="cpupoints">0</article>
+            <article id="options">
+                <button class="options" id="rock"><img src="rock.jpg" alt="Piedra" class="choices"></button>
+                <button class="options" id="paper"><img src="paper.jpg" alt="Papel" class="choices"></button>
+                <button class="options" id="scissors"><img src="scissors.jpg" alt="Tijeras" class="choices"></button>
+            </article>
+            <article class="choicetxt">The CPU choice</article>
+            <article>
+                <label>
+                    <img src="random.png" alt="opción" id="cpuchoice" class="choices">
+                </label>
+            </article>
+        </section>
+    </section>
+</section>
+<script src="script.js"></script>
+</body>
+</html>

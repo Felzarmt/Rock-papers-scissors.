@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(23, 32, 38);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+}
+
+.title{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 2em;
+}
+
+#reload{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13rem;
+    height: 3rem;
+    background-color: rgba(16, 175, 238, 0.5);
+    border-radius: 5rem;
+    border: double 4px transparent;
+}
+
+#scene{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#btn{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+#stage{
+    background-color: rgb(112, 179, 223);
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
+    gap: 6rem;
+    padding: 0 2rem 0 2rem;
+    margin: 2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 3cap;
+}
+
+.player{
+    color: rgb(39, 60, 122);
+}
+
+#game{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 3rem;
+    gap: 2rem;
+}
+
+#result{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#options{
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    border: transparent;
+    border-radius: 10px;
+    background-color: transparent;
+    transition: transform 0.3s ease;
+}
+
+.choices{
+    border: 2px solid rgb(72, 172, 143);
+    border-radius: 10px;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 10px;
+}
+
+.options:hover{
+    cursor: pointer;
+    transform: translateX(-3px) translateY(3px);
+}
+
+#userchoice, #cpuchoice{
+    transition: opacity 0.5s ease-in-out;
+}
